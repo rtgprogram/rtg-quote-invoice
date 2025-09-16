@@ -1,29 +1,43 @@
 {
   "expo": {
-    "name": "programleander",
-    "slug": "programleander",
+    "name": "RTG Quote Invoice",
+    "slug": "rtg-quote-invoice",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rtgcontrolart.rtgquoteinvoice",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "We use your photo library to select a company logo for your quotes.",
+        "NSCameraUsageDescription": "We use the camera to capture a logo or images for your quotes.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.rtgcontrolart.rtgquoteinvoice",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24ca3252-3078-4ce6-a82f-e6ece7b3f983"
+      }
     }
   }
 }
