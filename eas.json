@@ -14,14 +14,25 @@
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview"
+      "channel": "preview",
+      "ios": {
+        "image": "latest"
+      }
     },
     "production": {
       "distribution": "store",
-      "channel": "production"
+      "channel": "production",
+      "ios": {
+        "image": "macos-15-xcode-16.1"
+      }
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "master@controlart.net",
+        "ascAppId": "6752714831"
+      }
+    }
   }
 }
