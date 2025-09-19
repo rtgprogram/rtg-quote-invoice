@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# exception: include PrivacyInfo.xcprivacy for iOS 17+ compliance
+!/ios/PrivacyInfo.xcprivacy
