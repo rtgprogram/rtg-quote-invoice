@@ -1,0 +1,24 @@
+{
+  "NSPrivacyAccessedAPITypes": [
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICamera",
+      "NSPrivacyAccessedAPIUsageDescription": "Used to capture photos or logos for quotes."
+    },
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPIPhotoLibrary",
+      "NSPrivacyAccessedAPIUsageDescription": "Used to attach images from your photo library to quotes."
+    },
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPIContacts",
+      "NSPrivacyAccessedAPIUsageDescription": "Used to send quotes via email or SMS."
+    },
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPIPasteboard",
+      "NSPrivacyAccessedAPIUsageDescription": "Used to copy and paste text or images into quotes."
+    },
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPIMicrophone",
+      "NSPrivacyAccessedAPIUsageDescription": "Used if you add audio notes in quotes."
+    }
+  ]
+}
