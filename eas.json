@@ -23,7 +23,7 @@
       "distribution": "store",
       "channel": "production",
       "ios": {
-        "image": "macos-15-xcode-16.1"
+        "image": "macos-sonoma-14.6-xcode-16.1"
       }
     }
   },
